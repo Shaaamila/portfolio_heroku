@@ -67,15 +67,19 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 60px 0px 0px 0px;
+  /*margin: 60px 0px 0px 0px;*/
+  margin: 35px 0px 0px 0px;
   padding: 27px 0px;
   font-family: "Roboto", sans-serif;
-  font-size: 1.7em;
+  /*font-size: 1.7em;*/
+  font-size: 1.2em;
+  /*font-weight: 700;*/
   font-weight: 700; }
 
 nav a {
   color: black;
-  padding: 27px 57px; }
+  /*padding: 27px 57px;*/
+  padding: 27px 37px; }
   nav a:hover {
     text-decoration: none;
     color: black;
@@ -122,16 +126,17 @@ nav a {
     }*/
 .title-heading {
   font-family: 'Oregano', cursive;
-  /*font-size: em(300);*/
-  font-size: 800%;
+  /*font-size: 800%;*/
+  font-size: 500%;
   width: 80%;
   margin: 15% auto 5% auto;
-  font-weight: 300;
+  /*font-weight: 300;*/ 
+  font-weight: 500;
   opacity: 0.8; }
 
 .intro-heading {
   /*font-size: em(30);*/
-  font-size: 300%;
+  font-size: 200%;
   width: 70%;
   margin: 0 auto;
   opacity: 0.8;
@@ -151,22 +156,23 @@ nav a {
   background-size: 100% 100%; }
 
 .picture {
-  height: 600px; }
+  height: 400px; }
 
 .about-intro {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 47px;
   color: black;
   /*margin-bottom: 30px;*/ }
 
 .about-para {
   font-family: 'Lato', sans-serif;
-  font-size: 40px;
+  font-size: 27px;
   color: black;
   /*	margin-top: 30px;*/ }
 
 /*    About page ends	   */
+
 /*    Portfolio page starts	   */
 .container-fluid.portfolio {
   height: 100vh;
@@ -177,7 +183,8 @@ nav a {
 
 .portfolio-heading {
   /*font-size: em(80);*/
-  font-size: 65px;
+  /*font-size: 65px;*/
+  font-size: 45px;
   width: 70%;
   font-family: 'Josefin Sans', sans-serif;
   margin: 0px auto 50px auto;
@@ -194,9 +201,9 @@ nav a {
   text-align: center; }
 
 .portfolio ul li {
-  height: 22em;
+  height: 14em;
   /*<-- this is the height of the circle*/
-  width: 22em;
+  width: 14em;
   /*<-- this is the width of the circle*/
   display: inline-block;
   /*background-color: #81C784;*/
@@ -323,6 +330,7 @@ nav a {
   transform: rotate3d(0, 1, 0, -180deg); }
 
 /*    Portfolio page ends	   */
+
 /*    Skills page starts    */
 .container-fluid.skills {
   height: 100vh;
@@ -335,7 +343,7 @@ nav a {
 
 .skills-heading {
   /*font-size: em(80);*/
-  font-size: 65px;
+  font-size: 45px;
   width: 70%;
   font-family: 'Josefin Sans', sans-serif;
   /*margin: 20px auto 50px auto;*/
@@ -358,8 +366,8 @@ h1 {
   text-align: center; }
 
 .skills-box2 {
-  height: 200px;
-  width: 200px;
+  height: 130px;
+  width: 130px;
   /*background-size: 260px 260px;*/
   background-size: 100%;
   /*background-color: blue;*/
@@ -370,7 +378,8 @@ h1 {
 .skills-box2:hover {
   -webkit-transform: rotate(360deg);
   /*background: #9351A6;*/
-  border-radius: 50%;
+  border-radius: 50%;  /*50% creates the round shape*/
+
   /*  		background: 
     			url('/content/img/html5.png') center center no-repeat;*/ }
 
@@ -395,7 +404,7 @@ h1 {
 
 /*need icon, else h1 position floats up*/
 .icon {
-  height: 150px;
+  height: 90px;
   background-size: 100%;
   /*background-size: cover; */
   /*		border-bottom: 2px solid #555555;
@@ -413,9 +422,11 @@ h1 {
 	}*/
 .language h1 {
   text-align: center;
-  height: 50px;
+  height: 33px;
   margin: 0%;
+  font-size: 1.5em;
   font-weight: bold;
+
   /*background-image: linear-gradient(180deg, #E53935, #F44336, #FFEBEE);*/
   /*background-image: linear-gradient(180deg, #333333, #555555, #777777);*/
   background-image: linear-gradient(180deg, #333333, #555555, #111111);
@@ -549,11 +560,13 @@ h1 {
   background-color: #F45D5D; }
 
 /*Skills page ends*/
+
 /*Contact page starts*/
 .container-fluid.contact {
   height: 100vh;
   padding: 5%;
-  padding-top: 330px;
+  /*padding-top: 330px;*/
+  padding-top: 200px;
   color: white;
   /*		background: 
   		url('/content/img/contact.png') center center no-repeat;
@@ -570,17 +583,18 @@ h1 {
     /*border: 4px solid #03396c;*/
     border: 4px solid #0aad23;
     border-radius: 10px;
-    /*		background-image: linear-gradient(180deg, #99FFFF, #aaedc3, #1ab17d);*/
-    /*		background-image: linear-gradient(180deg, #FFFFFF, #99FFFF, #1ab17d);*/
+  
     background-image: linear-gradient(180deg, #FFFFFF, #b4f9c7, #1ab17d); }
   .container-fluid.contact .info-box h3 {
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Acme', sans-serif;
     padding: 0px; }
   .container-fluid.contact .info-box #info-words {
     padding-bottom: 2.5%;
+    font-size: 1.2em;
     font-family: 'Architects Daughter', cursive; }
   .container-fluid.contact .info-box h2 {
+    font-size: 1.2em;
     font-family: 'Alegreya Sans', sans-serif; }
   .container-fluid.contact .contact-form {
     height: 70%;
@@ -589,7 +603,7 @@ h1 {
     border-radius: 10px;
     /*background-color: grey;*/
     padding: 2%;
-    font-size: 25px; }
+    font-size: 1.2em; }
   .container-fluid.contact .contact-form form input {
     width: 90%;
     height: 3em;
@@ -630,6 +644,7 @@ h1 {
     background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
 
 /*Contact page ends*/
+
 /*footer starts*/
 footer ul {
   list-style-type: none;
@@ -641,7 +656,7 @@ footer ul {
 footer ul li {
   display: inline-block;
   padding: 3% 2%;
-  font-size: 1.7em;
+  font-size: 1.1em;
   font-weight: 700; }
 
 footer a {
