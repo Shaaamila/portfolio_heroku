@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio_webdev",
+  "name": "Portfolio_heroku",
   "version": "1.0.0",
   "description": "My portfolio",
   "main": "server.js",
@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": ">=12.3.1",
-    "npm": ">=6.9.0"
+    "node": "12.3.1",
+    "npm": "6.9.0"
   },
   "author": "Shamila Mosharraf",
   "license": "UNLICENSED",
