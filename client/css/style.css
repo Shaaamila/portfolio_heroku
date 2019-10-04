@@ -7,6 +7,8 @@
 @import url("https://fonts.googleapis.com/css?family=Architects+Daughter");
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+/*how to start sass:
+sass --watch style.sass : style.css */
 /*Mixin*/
 /*$skills-color: */
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
@@ -93,17 +95,19 @@ nav a {
 
 /*getting rid of &:focus (active page), as it does not show on the focused page  */
 /*   Navbar ends   */
+
+/*scroll up navigation arrow design*/
 .goToTop {
   position: fixed;
   bottom: 10%;
-  width: 50px;
-  height: 50px;
-  border-radius: 40%;
+  width: 35px;
+  height: 35px;
+  border-radius: 5%;
   right: 2%;
   /*z-index: 100000;*/
   cursor: pointer;
   margin: 10px;
-  font-size: 2em;
+  font-size: 1em;
   -moz-opacity: 0.60;
   opacity: .60;
   filter: alpha(opacity=60);
@@ -275,15 +279,35 @@ nav a {
 
 .ch-img-1 {
   /*background-color: #AB47BC;*/
-  background-image: url("/content/img/img-bg.png");
+  /*background-image: url("/content/img/img-bg.png");*/
+  background-image: url("/content/img/travel.jpg");
   background-size: 132%;
   background-repeat: no-repeat; }
 
 .ch-img-2 {
-  background-image: url("/content/img/img.png"); }
+  background-image: url("/content/img/free-up.jpg"); 
+  background-size: 132%;
+  background-repeat: no-repeat;}
 
 .ch-img-3 {
-  background-image: url("/content/img/img.png"); }
+  background-image: url("/content/img/mern.jpg"); 
+  background-size: 132%;
+  background-repeat: no-repeat;}
+
+.ch-img-4 {
+  background-image: url("/content/img/tip.jpg"); 
+  background-size: 132%;
+  background-repeat: no-repeat;}
+
+.ch-img-5 {
+  background-image: url("/content/img/gkb.jpg"); 
+  background-size: 132%;
+  background-repeat: no-repeat;}
+
+.ch-img-6 {
+  background-image: url("/content/img/img-bg.png"); 
+  background-size: 132%;
+  background-repeat: no-repeat;}
 
 /*	Typographical elements*/
 .ch-info h3 {
