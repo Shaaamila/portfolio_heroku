@@ -19,7 +19,7 @@
     "angular-bootstrap": "^0.12.2",
     "angular-material": "^1.1.4",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.0",
     "gulp-sass": "3.0.0",
